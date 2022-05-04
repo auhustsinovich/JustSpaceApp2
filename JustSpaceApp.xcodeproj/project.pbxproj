@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A519B7C4280DB81000E883D0 /* SpaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519B7C3280DB81000E883D0 /* SpaceCell.swift */; };
+		A519B7C6280DB87500E883D0 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519B7C5280DB87500E883D0 /* ResultsViewController.swift */; };
+		A519B7C8280DBDE800E883D0 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519B7C7280DBDE800E883D0 /* Picture.swift */; };
 		A53B396128071B9F004CA705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53B396028071B9F004CA705 /* AppDelegate.swift */; };
 		A53B396328071B9F004CA705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53B396228071B9F004CA705 /* SceneDelegate.swift */; };
-		A53B396528071B9F004CA705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53B396428071B9F004CA705 /* ViewController.swift */; };
+		A53B396528071B9F004CA705 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53B396428071B9F004CA705 /* MainViewController.swift */; };
 		A53B396828071B9F004CA705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53B396628071B9F004CA705 /* Main.storyboard */; };
 		A53B396A28071B9F004CA705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53B396928071B9F004CA705 /* Assets.xcassets */; };
 		A53B396D28071B9F004CA705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53B396B28071B9F004CA705 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A519B7C3280DB81000E883D0 /* SpaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCell.swift; sourceTree = "<group>"; };
+		A519B7C5280DB87500E883D0 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		A519B7C7280DBDE800E883D0 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		A53B395D28071B9F004CA705 /* JustSpaceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustSpaceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53B396028071B9F004CA705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A53B396228071B9F004CA705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A53B396428071B9F004CA705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A53B396428071B9F004CA705 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A53B396728071B9F004CA705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A53B396928071B9F004CA705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A53B396C28071B9F004CA705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +64,14 @@
 			children = (
 				A53B396028071B9F004CA705 /* AppDelegate.swift */,
 				A53B396228071B9F004CA705 /* SceneDelegate.swift */,
-				A53B396428071B9F004CA705 /* ViewController.swift */,
+				A53B396428071B9F004CA705 /* MainViewController.swift */,
 				A53B396628071B9F004CA705 /* Main.storyboard */,
 				A53B396928071B9F004CA705 /* Assets.xcassets */,
 				A53B396B28071B9F004CA705 /* LaunchScreen.storyboard */,
 				A53B396E28071B9F004CA705 /* Info.plist */,
+				A519B7C3280DB81000E883D0 /* SpaceCell.swift */,
+				A519B7C5280DB87500E883D0 /* ResultsViewController.swift */,
+				A519B7C7280DBDE800E883D0 /* Picture.swift */,
 			);
 			path = JustSpaceApp;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A53B396528071B9F004CA705 /* ViewController.swift in Sources */,
+				A519B7C8280DBDE800E883D0 /* Picture.swift in Sources */,
+				A519B7C4280DB81000E883D0 /* SpaceCell.swift in Sources */,
+				A53B396528071B9F004CA705 /* MainViewController.swift in Sources */,
 				A53B396128071B9F004CA705 /* AppDelegate.swift in Sources */,
+				A519B7C6280DB87500E883D0 /* ResultsViewController.swift in Sources */,
 				A53B396328071B9F004CA705 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
